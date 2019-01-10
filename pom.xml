@@ -8,6 +8,7 @@
         <version>2.1.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+    <packaging>pom</packaging>
     <groupId>com.dungeons</groupId>
     <artifactId>parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
@@ -24,6 +25,7 @@
     <modules>
         <module>eureka</module>
         <module>heroes</module>
+        <module>quests</module>
     </modules>
 
     <dependencies>

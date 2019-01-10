@@ -6,4 +6,8 @@ eureka:
       defaultZone: http://localhost:8011/eureka
 
 server:
-  port: 8100
+  port: 8200
+spring:
+  banner:
+    image:
+      location: banner.txt
