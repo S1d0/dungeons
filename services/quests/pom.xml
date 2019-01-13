@@ -9,7 +9,6 @@
     </parent>
 
     <artifactId>quests</artifactId>
-    <version>${parent.version}</version>
     <name>quests</name>
     <description>Quest services for our heroes</description>
 

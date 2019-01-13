@@ -8,7 +8,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <artifactId>eureka</artifactId>
-    <version>${parent.version}</version>
     <name>eureka</name>
     <description>Eureka service</description>
 
