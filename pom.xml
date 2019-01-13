@@ -24,8 +24,7 @@
             ORDER: CONFIG SERVER (IF EXIST), EUREKA, GATEWAY-->
     <modules>
         <module>eureka</module>
-        <module>heroes</module>
-        <module>quests</module>
+        <module>services</module>
     </modules>
 
     <dependencies>

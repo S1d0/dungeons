@@ -1,0 +1,13 @@
+# Default eureka server url
+# TODO After implement config-server move url to properties fetch from config server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8011/eureka
+
+server:
+  port: 8200
+spring:
+  banner:
+    image:
+      location: banner.txt
