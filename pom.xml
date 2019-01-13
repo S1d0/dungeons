@@ -25,6 +25,7 @@
     <modules>
         <module>eureka</module>
         <module>services</module>
+        <module>utils</module>
     </modules>
 
     <dependencies>

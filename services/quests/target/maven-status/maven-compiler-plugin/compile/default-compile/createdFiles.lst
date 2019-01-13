@@ -1,4 +1,3 @@
-com/dungeons/quests/controller/LocationController.class
-com/dungeons/quests/model/LocationInfo.class
+com/dungeons/quests/controller/QuestController.class
 com/dungeons/quests/QuestsApplication.class
 com/dungeons/quests/model/Quest.class
