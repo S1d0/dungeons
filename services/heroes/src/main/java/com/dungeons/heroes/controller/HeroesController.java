@@ -15,9 +15,12 @@ import java.util.List;
 @RestController
 @RequestMapping("/")
 public class HeroesController {
+    private QuestClient questClient;
 
     @Autowired
-    private QuestClient questClient;
+    public HeroesController(QuestClient questClient) {
+        this.questClient = questClient;
+    }
 
     @GetMapping("/heroInfo/{heroId}")
     public HeroInfo getHeroInfo(@PathVariable Long heroId) {
